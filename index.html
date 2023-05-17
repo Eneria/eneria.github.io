@@ -1,39 +1,90 @@
+<!--Cheat sheet for CSS color properties-->
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My First Page!</title>
-  <link rel="stylesheet" type="text/css" href="https://eneria.github.io/style.css"/>
-</head>
-<body>
-   <header>
- <h1>✧･ﾟ: *✧･ﾟ Hi, I'm Hannah! ･ﾟ✧*:･ﾟ✧</h1>
- <h2>This is the first time I am crafting my own webpage.</h2> 
-   </header>
-   <main>
-      <div id="opening">
- <p>Hopefully I will be able to use this in the future as a means to show the stepping stones of progress on my journey. :D
-    At the moment I am currently working towards:</p>
- <ul>
-    <li>Becoming certified in HTML</li>
-    <li>Becoming certified in CSS</li>
-    <li>Starting my journey towards fullstack dev</li>
- </ul>
-      </div>
- <p>I have three little guinea pigs that I absolutely adore, and I plan on dedicating a project to them in the future!
-    Also in the works, once I become more proficient in my skills, I would like to create a dedication to my childhood cat who sadly passed away this year. 
-    Have a picture of her:</p>
-    <br>
-<img src="https://cdn.discordapp.com/attachments/1007519951353036831/1010866738843365386/IMG_20220821_070214.jpg" width="300" height="400" alt="My cat Kimba" />
- </main>
-<br>
-<div class="music-text">
-   <p>I am a huge fan of the Dungeon Synth genre of music, here is an album I listen to frequently while doing my Codecademy lessons:
-<a href="https://youtu.be/-y5t2G_fPhs" target="_blank"><strong>Quest Master: Sword & Circuitry</strong></a>
-<br>
-Alternatively, you can listen to it right below!
-</div>
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-y5t2G_fPhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </p>
- 
-</body>
-</html>
+ <html>
+    <head>
+      <title>CSS Color Properties</title>
+      <link href="./styles.css" type="text/css" rel="stylesheet" >
+      <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CSS Color Properties Reference</h1>
+        <aside> <!--Short intro about colors-->
+        <p>Man, colors are fun. Here, I've used value shifting to keep the text color varied, but still analogous.
+         What's nice is CSS has plenty of options to add those touches to various elements.
+         I quite enjoy using gradients because seeing the colors gently shift into another color makes my silly little monkey 
+         brain neurons activate.
+        </p>
+        <p>Below I have compiled a table of the various properties that can be used in CSS
+         to play with those funky wavelengths of light. This table will <strong>not</strong> be comprehensive, just a representation
+         of the knowledge I have accumulated and found useful so far. 
+        </p>
+        </aside>
+         <h2>Properties</h2> <!--Beginning of table-->
+            <table>
+               <thead>
+                  <td>Property</td>
+                  <td>Name</td>
+                  <td>Description</td>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>accent-color:</td>
+                     <td>Accent Color</td>
+                     <td>Specifies an accent color for user-interface controls</td>
+                  </tr>
+                  <tr>
+                     <td>background-color:</td>
+                     <td>Background Color</td>
+                     <td>Specifies the background color of an element</td>
+                  </tr>
+                  <tr>
+                     <td>border-color:</td>
+                     <td>Border Color</td>
+                     <td>Sets the color of all four border sides. *Note, this
+                        property can be used to specify certain border sides--i.e "border-top-color:"
+                     </td>
+                     <tr>
+                        <td>border-inline-color:</td>
+                        <td>Border Inline Color</td>
+                        <td>Sets the color of the borders at start and end in the inline direction. 
+                           *Note, this can be specified for the start or end of the inline.</td>
+                     </tr>
+                  </tr>
+                  <tr>
+                     <td>color:</td>
+                     <td>Color</td>
+                     <td>Sets the color of text.</td>
+                  </tr>
+                  <tr>
+                     <td>column-rule-color:</td>
+                     <td>Column Rule Color</td>
+                     <td>Specifies the rule of the color between columns</td>
+                  </tr>
+                  <tr>
+                     <td>outline-color:</td>
+                     <td>Outline Color</td>
+                     <td>Specifies the color of an outline</td>
+                  </tr>
+                  <tr>
+                     <td>text-decoration-color</td>
+                     <td>Text Decoration Color</td>
+                     <td>Specifies the color of the text decoration.</td>
+                  </tr>
+               </tbody>
+            </table> <!--End of table-->
+         <p>I find that colors are one of the most essential points of learning if you plan on doing anything with design.
+            A small accent of color can make the difference between making something pop, or just falling into another wall of text.
+            You could say it provides another layer of <em><strong>emphasis</strong></em>.
+         </p>
+         <embed class=gif src="./Resources/Ebee.gif" width="350" alt="A character of mine celebrating">
+            <p>Another project done! Looking forward to continuing to grow in this journey.</p>
+            <br>
+         <footer>
+            <p>If you would like to look more into CSS properties yourself, W3S has a plethora of useful information and resources for not just CSS, but also HTML.
+               The information I used for the table I got from there. 
+            </p>
+            <a class="href" href=https://www.w3schools.com/cssref/index.php target="_blank">W3 Schools!</a>
+         </footer>
+    </body>
+ </html>

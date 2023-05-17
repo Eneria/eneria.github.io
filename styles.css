@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Chakra Petch';
+    background-color: rgb(43, 43, 43);
+    color: rgb(128, 168, 168)
+}
+
+h1 {
+    font-family: 'Bruno Ace SC';
+    text-align: center;
+    border-bottom: solid 3px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Bruno Ace SC';
+}
+
+table {
+    border: solid rgb(62, 91, 91);
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(62, 91, 91);
+}
+
+thead {
+    text-align: center;
+    font-weight: 700;
+}
+
+td {
+    border-right: solid 1px rgb(128, 168, 168);
+    border-bottom: solid 1px rgb(128, 168, 168);
+    background-color: rgb(41, 61, 61);
+}
+
+a :hover {
+    color: rgb(20, 31, 31);
+}
+
+a :visited {
+   color: rgb(20, 31, 31);
+}
